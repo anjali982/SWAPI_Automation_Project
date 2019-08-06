@@ -5,15 +5,10 @@
     <classes>
       <class name="runner.TestRunner">
         <methods>
-          <include name="passTest"/>
-          <include name="startReport"/>
           <include name="setUpClass"/>
-          <include name="failTest"/>
           <include name="feature" invocation-numbers="0"/>
-          <include name="endReport"/>
-          <include name="getResult"/>
           <include name="tearDownClass"/>
-          <include name="skipTest"/>
+          <include name="writeExtentReport"/>
         </methods>
       </class> <!-- runner.TestRunner -->
     </classes>

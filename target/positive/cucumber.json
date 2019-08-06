@@ -1,58 +1,90 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "Get character list for all Star Wars Characters",
+        "line": 4,
+        "name": "Endpoint Configuration",
         "description": "",
-        "id": "character-list-for-all-star-wars-characters;get-character-list-for-all-star-wars-characters",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 307239100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The endpoint is already configured",
+            "match": {
+              "location": "characterPlanetSearch.the_endpoint_is_already_configured()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 472070200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "characterPlanetSearch.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be ale to search details of a character",
+        "description": "",
+        "id": "user-should-be-able-to-search-for-the-details-of-a-star-wars-character-or-planet;user-should-be-ale-to-search-details-of-a-character",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2663465300,
+              "duration": 8272408800,
               "status": "passed"
             },
-            "line": 4,
-            "name": "I create Get request to get character list",
+            "line": 8,
+            "name": "User creates a Get request to serach a planet character",
             "match": {
-              "location": "CharacterList.i_create_Get_request_to_get_character_list()"
+              "location": "characterPlanetSearch.user_creates_a_Get_request_to_serach_a_planet_character()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 46194900,
+              "duration": 36468100,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 5,
-                "value": "#Then I get list of all star wars characters"
-              }
-            ],
-            "line": 6,
-            "name": "I get status code 200 from the database",
+            "line": 9,
+            "name": "Status code \"200\" should be returned by the API",
             "match": {
               "arguments": [
                 {
                   "val": "200",
-                  "offset": 18
+                  "offset": 13
                 }
               ],
-              "location": "CharacterList.i_get_status_code_from_the_database(int)"
+              "location": "characterPlanetSearch.status_code_should_be_returned_by_the_API(String)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Character list for all Star Wars characters",
+    "name": "User should be able to search for the details of a Star Wars character or planet",
     "description": "",
-    "id": "character-list-for-all-star-wars-characters",
+    "id": "user-should-be-able-to-search-for-the-details-of-a-star-wars-character-or-planet",
     "keyword": "Feature",
-    "uri": "CharacterList.feature"
+    "uri": "Character\u0026PlanetSearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search"
+      }
+    ]
   }
 ]

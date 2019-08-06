@@ -32,6 +32,19 @@
     <artifactId>cucumber-testng</artifactId>
     <version>4.7.1</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/modules -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>modules</artifactId>
+    <version>3.1.0</version>
+    <type>pom</type>
+</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>3.0.0</version>
+</dependency>
 
     <dependency>
 			<groupId>info.cukes</groupId>
@@ -70,7 +83,7 @@
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
-    <version>4.0.9</version>
+    <version>3.1.5</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
 <dependency>
@@ -133,8 +146,6 @@
     <version>2.9.0</version>
     <scope>test</scope>
 </dependency>
-
-
 </dependencies>
 	<build>
 		<plugins>

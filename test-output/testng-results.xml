@@ -2,75 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4116" started-at="2019-08-05T18:39:34Z" finished-at="2019-08-05T18:39:38Z">
+  <suite name="Default suite" duration-ms="10657" started-at="2019-08-06T15:34:06Z" finished-at="2019-08-06T15:34:17Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@20398b7c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@210366b4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="4116" started-at="2019-08-05T18:39:34Z" finished-at="2019-08-05T18:39:38Z">
+    <test name="Default test" duration-ms="10657" started-at="2019-08-06T15:34:06Z" finished-at="2019-08-06T15:34:17Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@20398b7c]" name="setUpClass" is-config="true" duration-ms="369" started-at="2019-08-05T18:39:34Z" finished-at="2019-08-05T18:39:34Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@210366b4]" name="setUpClass" is-config="true" duration-ms="455" started-at="2019-08-06T15:34:06Z" finished-at="2019-08-06T15:34:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@20398b7c]" name="feature" duration-ms="3315" started-at="2019-08-05T18:39:35Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-05T18:39:38Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@210366b4]" name="feature" duration-ms="9556" started-at="2019-08-06T15:34:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-06T15:34:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Character list for all Star Wars characters]]>
+                <![CDATA[User should be able to search for the details of a Star Wars character or planet]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="writeExtentReport()[pri:0, instance:runner.TestRunner@20398b7c]" name="writeExtentReport" is-config="true" duration-ms="1" started-at="2019-08-05T18:39:38Z" finished-at="2019-08-05T18:39:38Z">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(Ljava/io/File;)V]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: com.aventstack.extentreports.reporter.ExtentHtmlReporter.loadXMLConfig(Ljava/io/File;)V
-at com.cucumber.listener.Reporter.loadXMLConfig(Reporter.java:56)
-at runner.TestRunner.writeExtentReport(TestRunner.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:runner.TestRunner@210366b4]" name="writeExtentReport" is-config="true" duration-ms="16" started-at="2019-08-06T15:34:17Z" finished-at="2019-08-06T15:34:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@20398b7c]" name="tearDownClass" is-config="true" duration-ms="290" started-at="2019-08-05T18:39:38Z" finished-at="2019-08-05T18:39:38Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@210366b4]" name="tearDownClass" is-config="true" duration-ms="501" started-at="2019-08-06T15:34:17Z" finished-at="2019-08-06T15:34:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.TestRunner -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
