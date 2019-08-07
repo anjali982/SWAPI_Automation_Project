@@ -1,4 +1,4 @@
-# Feature file to test Star Wars API for list of planet
+# Feature file to test Star Wars API for list of planets
 # Author: Anjali Sharma
 # Created: 06/08/2019
 Feature: Star Wars API Testing for list of planets
