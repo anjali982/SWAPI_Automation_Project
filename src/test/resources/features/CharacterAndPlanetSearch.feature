@@ -3,7 +3,7 @@
 # Created: 06/08/2019
 Feature: Star Wars API Testing for searching a character or a planet
 
-    # Test Case to validate search for a Star Wars Clanet
+    # Test Case to validate search for a Star Wars Planet
 	@StarPlanet  @Regression 
 	Scenario Outline: Validate that user is able to search a Star Wars Planet 
 		Given API Base URL for the Application "https://swapi.co/api/" 
